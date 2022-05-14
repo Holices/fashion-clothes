@@ -1,0 +1,154 @@
+body {
+  font-family: tahoma, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-background: #162028;
+}
+
+#all {
+  width: 1024px;
+  margin: 50px auto;
+}
+
+.top {
+  background: var(--dark-background);
+  position: relative;
+  border-radius: 5px;
+}
+
+.logo {
+  margin: 7px 0 7px 100px;
+}
+
+nav.menu {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+nav.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px 35px 0 0;
+  color: #425564;
+  font-size: .8rem;
+  letter-spacing: 3px;
+}
+
+.content {
+  text-align: center;
+  margin: 60px 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #252525;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 2;
+  color: #555;
+}
+
+.gallery {
+  color: #555;
+  padding: 0 80px 50px 80px;
+  overflow: auto;
+}
+
+.gallery-card {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.gallery-card img {
+  border-radius: 5px;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.about {
+  border-radius: 5px;
+  background: #003d52;
+  text-align: left;
+  padding: 50px 100px;
+  background-image: url(/imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.about p {
+  width: 60%;
+  letter-spacing: 2px;
+}
+
+.contact {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.newsletter {
+  text-align: center;
+  margin: 50px 50px 30px 50px;
+}
+
+.newsletter a {
+  display: inline-block;
+  background: #003d52;
+  border: 1px solid var(--dark-background);
+  border-radius: 50px;
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.newsletter a:hover {
+  background: #004562;
+}
+
+.maps {
+  height: 450px;
+  width: 100%;
+}
+
+.maps iframe {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.under {
+  background: var(--dark-background);
+  padding: 25px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: .9rem;
+  color: white;
+  border-radius: 0 0 5px 5px;
+
+}
